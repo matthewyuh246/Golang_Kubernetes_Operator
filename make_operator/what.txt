@@ -1,0 +1,9 @@
+| パッケージ       | API グループ      | 主なリソース例                        |
+|-------------|----------------|----------------------------------|
+| `core/v1`   | Core (no group) | Pod, Service, ConfigMap, Secret |
+| `apps/v1`   | apps           | Deployment, StatefulSet, DaemonSet |
+| `batch/v1`  | batch          | Job, CronJob                     |
+| `rbac/v1`   | rbac.authorization.k8s.io | Role, RoleBinding, ClusterRole |
+| `networking/v1` | networking.k8s.io | Ingress, NetworkPolicy         |
+
+context.TODO() は「まだどんなコンテキストを使うべきか決めていない」ことを示すダミーの Context。
